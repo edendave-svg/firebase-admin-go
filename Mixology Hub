@@ -1,0 +1,8 @@
+| Collection      | Document Fields                                                                                  | Example                                                       |
+| --------------- | ------------------------------------------------------------------------------------------------ | ------------------------------------------------------------- |
+| `users`         | `uid`, `name`, `email`, `premium (bool)`, `avatarUrl`                                            | `"uid": "abc123", "name": "John Doe", "premium": true`        |
+| `recipes`       | `id`, `name`, `ingredients[]`, `steps[]`, `imageUrl`, `difficulty`, `category`, `premium (bool)` | `"name": "Mojito", "premium": false, "category": "Cocktails"` |
+| `spirits`       | `id`, `name`, `description`, `imageUrl`, `category`                                              | `"name": "Gin", "category": "Spirit"`                         |
+| `tutorials`     | `id`, `title`, `videoUrl`, `description`, `premium (bool)`                                       | `"title": "How to Shake", "premium": true`                    |
+| `premium_plans` | `id`, `name`, `price`, `duration`, `features[]`                                                  | `"name": "Gold Plan", "price": 9.99, "duration": "1 month"`   |
+
